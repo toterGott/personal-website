@@ -12,11 +12,16 @@ body {
     text-align: center;
 }
 
-.header-text {
-    margin-top: 5vh;
+.header-link-text {
+    margin-top: 2%;
+    margin-bottom: 2%;
     font-size: 500%;
     text-align: center;
     font-family: Fraktur, serif;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: inherit;
 }
 
 .fraktur-link {
@@ -25,7 +30,7 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
-    text-decoration:none;
+    text-decoration: none;
     color: inherit;
 }
 
