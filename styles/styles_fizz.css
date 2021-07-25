@@ -25,6 +25,8 @@ body {
     display: flex;
     text-align: center;
     flex-direction: column;
+    text-decoration:none;
+    color: inherit;
 }
 
 @font-face {
@@ -47,4 +49,10 @@ html, body {
 
 .footer {
     flex-shrink: 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
 }
