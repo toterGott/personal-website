@@ -3,12 +3,12 @@ body {
     font-family: "Helvetica", serif;
     display: flex;
     flex-direction: column;
-    margin: 0;
+    margin: 0 10%;
 }
 
 .text {
     color: black;
-    font-size: 330%;
+    font-size: 250%;
     text-align: center;
 }
 
@@ -17,6 +17,14 @@ body {
     font-size: 500%;
     text-align: center;
     font-family: Fraktur, serif;
+}
+
+.fraktur-link {
+    font-family: Fraktur, serif;
+    font-size: 330%;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
 }
 
 @font-face {
