@@ -24,6 +24,10 @@ body {
     color: inherit;
 }
 
+.fraktur {
+    font-family: Fraktur, serif;
+}
+
 .fraktur-link {
     font-family: Fraktur, serif;
     font-size: 330%;
@@ -32,6 +36,16 @@ body {
     flex-direction: column;
     text-decoration: none;
     color: inherit;
+}
+
+.blog-link {
+    text-align: left;
+    color: inherit;
+    font-weight: bold;
+}
+
+li.blog {
+    font-size: 150%;
 }
 
 @font-face {
@@ -60,4 +74,26 @@ html, body {
     display: flex;
     justify-content: space-around;
     text-align: center;
+}
+
+.pager {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+iframe.page-frame {
+    width: 100%;
+    display: block;
+    height: 100vh;
+    border-style: none;
+}
+
+.pages-list {
+    margin-top: 5%;
+}
+
+.blog-content {
+    margin-top: 3%;
+    display: block;
 }
