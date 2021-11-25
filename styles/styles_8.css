@@ -11,7 +11,7 @@ body {
 }
 
 .main-text {
-    font-size: 250%;
+    font-size: 200%;
     width: 95%;
     display: block;
     margin-left: auto;
@@ -113,3 +113,5 @@ iframe.page-frame {
 p.first-line-margin {
     text-indent: 10%;
 }
+
+/*TODO add max width for text */
