@@ -11,6 +11,8 @@ body {
 }
 
 .main-text {
+    max-width: 800px;
+    text-align: justify;
     font-size: 200%;
     width: 95%;
     display: block;
