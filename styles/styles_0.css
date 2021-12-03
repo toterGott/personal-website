@@ -83,7 +83,7 @@ html, body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    margin-bottom: 8%;
+    margin: 0 10% 8%;
 }
 
 .pager {
