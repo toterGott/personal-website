@@ -63,6 +63,7 @@ li.blog {
 }
 
 .footer-text {
+    font-weight: bold;
     text-align: center;
     font-family: JetBrainsMono, serif;
 }
