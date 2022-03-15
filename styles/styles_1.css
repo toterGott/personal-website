@@ -1,6 +1,6 @@
 body {
     background-color: white;
-    font-family: "Helvetica", serif;
+    font-family: JetBrainsMono, serif;
     display: flex;
     flex-direction: column;
     margin: 0 10%;
@@ -25,20 +25,20 @@ body {
     margin-bottom: 2%;
     font-size: 500%;
     text-align: center;
-    font-family: Fraktur, serif;
+    font-family: JetBrainsMono, serif;
     display: flex;
     flex-direction: column;
     text-decoration: none;
     color: inherit;
 }
 
-.fraktur {
-    font-family: Fraktur, serif;
+.jetBrainsMono {
+    font-family: JetBrainsMono, serif;
 }
 
-.fraktur-link {
+.jetBrainsMono-link {
     margin-top: 3%;
-    font-family: Fraktur, serif;
+    font-family: JetBrainsMono, serif;
     font-size: 330%;
     display: flex;
     text-align: center;
@@ -58,13 +58,13 @@ li.blog {
 }
 
 @font-face {
-    font-family: Fraktur;
-    src: url(../fonts/UnifrakturMaguntia-Regular.ttf);
+    font-family: JetBrainsMono;
+    src: url(../fonts/JetBrainsMono-Regular.ttf);
 }
 
 .footer-text {
     text-align: center;
-    font-family: Fraktur, serif;
+    font-family: JetBrainsMono, serif;
 }
 
 html, body {
