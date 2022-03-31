@@ -68,6 +68,10 @@ li.blog {
     font-family: JetBrainsMono, serif;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 html, body {
     height: 100%;
 }
