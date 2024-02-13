@@ -21,7 +21,13 @@
 }
 
 .center-text {
+    text-align: center !important;
+}
+
+.centered-text {
     text-align: center;
+    margin: 0 auto;
+    display: block;
 }
 
 .main-text {
@@ -133,6 +139,28 @@ iframe.page-frame {
 
 p.first-line-margin {
     text-indent: 10%;
+}
+a {
+    color: aqua;
+    text-decoration: none;
+}
+a:hover {
+    color: aqua;
+    text-decoration: #ff66cc underline;
+}
+
+.inverted-svg {
+    filter: invert(1);
+}
+
+.inline-image-container {
+    display: inline-block;
+    height: 1em;
+}
+
+.inline-image {
+    vertical-align: middle;
+    max-height: 100%;
 }
 
 /*TODO add max width for text */
