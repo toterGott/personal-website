@@ -7,6 +7,20 @@
         flex-direction: column;
         margin: 0 10%;
     }
+
+    a {
+        color: aqua;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: aqua;
+        text-decoration: #ff66cc underline;
+    }
+
+    .inverted-svg {
+        filter: invert(1);
+    }
 }
 
 @media (prefers-color-scheme: light) {
@@ -17,6 +31,19 @@
         display: flex;
         flex-direction: column;
         margin: 0 10%;
+    }
+
+    a {
+        color: #ff66cc;
+        text-decoration: none;
+    }
+    a:hover {
+        color: #ff66cc;
+        text-decoration: aqua  underline;
+    }
+
+    .inverted-svg {
+        filter: invert(0);
     }
 }
 
@@ -139,18 +166,6 @@ iframe.page-frame {
 
 p.first-line-margin {
     text-indent: 10%;
-}
-a {
-    color: aqua;
-    text-decoration: none;
-}
-a:hover {
-    color: aqua;
-    text-decoration: #ff66cc underline;
-}
-
-.inverted-svg {
-    filter: invert(1);
 }
 
 .inline-image-container {
