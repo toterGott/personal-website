@@ -1,5 +1,5 @@
 #!/bin/bash
-HOST=/
+HOST=totergott.pro
 exec() {
   ssh root@$HOST $1
 }
