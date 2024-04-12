@@ -1,5 +1,5 @@
 #!/bin/bash
-HOST=167.172.182.98
+HOST=/
 exec() {
   ssh root@$HOST $1
 }
