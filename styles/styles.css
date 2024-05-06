@@ -47,6 +47,12 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .main-text {
+        font-size: 300% !important;
+    }
+}
+
 .center-text {
     text-align: center !important;
 }
@@ -60,7 +66,7 @@
 .main-text {
     max-width: 800px;
     text-align: justify;
-    font-size: 180%;
+    font-size: 200%;
     width: 95%;
     display: block;
     margin-left: auto;
@@ -125,6 +131,11 @@ html, body {
 
 .content {
     flex: 1 0 auto;
+}
+
+.contacts {
+    column-count: 2;
+    column-gap: 20px;
 }
 
 .footer {
